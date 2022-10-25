@@ -1,6 +1,6 @@
 ## Repaso de funciones y variables en pseudocódigo
 
-Partimos del siguiente ejemplo. Un programa principal y una función:
+Partimos del siguiente ejemplo. Un programa principal y una función que calcula el máximo entre dos números:
 
 ### La función se llama CalcularMaximo y retorna max
 
