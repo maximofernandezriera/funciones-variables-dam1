@@ -78,6 +78,10 @@ Veamos ahora el mismo programa pero pasando el parámetro por referencia.
 
 El resultado será 6 y 6. Hemos modificado el parámetro formal y se modificado el real.
 
+## Importante: Los tipos de datos simples: enteros, lógicos, caracteres y demás, por defecto se pasan por valor
+
+## Importante: Los tipos de datos complejos como los arrays por defecto se pasan por referencia.
+
 ## Llamada a la función
 
 Para llamar a una función se debe utilizar su nombre y entre paréntesis los parámetros reales que se mandan. La llamada a una función se puede considerar una expresión cuyo valor y tipo es el retornado por la función.
