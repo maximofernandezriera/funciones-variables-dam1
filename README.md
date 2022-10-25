@@ -1,4 +1,4 @@
-## Repaso de funciones y variables en pseudocódigo
+## Repaso de funcione, variables y parámetros en pseudocódigo
 
 Partimos del siguiente ejemplo. Un programa principal y una función que calcula el máximo entre dos números:
 
