@@ -48,17 +48,17 @@ Si queremos indicar explícitamente como se pasan los parámetros podemos usar l
 
 Comprobamos que los parámetros pasados por valor no modifican los parámetros reales.
 
-Funcion PasoPorValor(num)
-   num <- num +1;
-   Escribir num;
-FinFuncion    
+    Funcion PasoPorValor(num)
+        num <- num +1;
+        Escribir num;
+    FinFuncion    
 
-Proceso Prueba
-    Definir numero1 Como Entero;
-    numero1<-5;
-    PasoPorValor(numero1);
-    Escribir numero1;
-FinProceso
+    Proceso Prueba
+        Definir numero1 Como Entero;
+        numero1<-5;
+        PasoPorValor(numero1);
+        Escribir numero1;
+    FinProceso
 
 El resultado será 5 y 6. Hemos incrementado el valor del parámetro formal, pero no se ha modificado el real.
 
