@@ -41,7 +41,7 @@ Por ejemplo la variable max definida en la función no existe en el programa pri
 - Paso por valor: El valor de los parámetros reales se copian en los parámetros formales, por lo tanto una modificación de algún parámetro formal no modifica el parámetro real.
 - Paso por referencia: Cuando se pasa un parámetro por referencia implica que si modificamos el parámetro formal se modificará el parámetro real.
 
-Por de defecto, los arrays se pasan por referencia, las demás expresiones por valor.
+Por de defecto, los arrays se pasan por referencia, las demás estructuras de datos: por valor.
 Si queremos indicar explícitamente como se pasan los parámetros podemos usar las palabras claves Por Valor o Por Referencia.
 
 ## Un ejemplo completo de la diferencia entre paso por valor y referencia
