@@ -32,14 +32,14 @@ Por ejemplo la variable max definida en la función no existe en el programa pri
 
 ## Parámetros formales y reales
 
--Parámetros formales: Son las variables que recibe la función, se crean al definir la función. Su contenido lo recibe al realizar la llamada a la función de los parámetro reales. Los parámetros formales son variables locales dentro de la función.
+- Parámetros formales: Son las variables que recibe la función, se crean al definir la función. Su contenido lo recibe al realizar la llamada a la función de los parámetro reales. Los parámetros formales son variables locales dentro de la función.
 
--Parámetros reales: Son la expresiones que se utilizan en la llamada de la función, sus valores se copiarán en los parámetros formales.
+- Parámetros reales: Son la expresiones que se utilizan en la llamada de la función, sus valores se copiarán en los parámetros formales.
 
 ## Paso de parámetro por valor o por referencia
 
--Paso por valor: El valor de los parámetros reales se copian en los parámetros formales, por lo tanto una modificación de algún parámetro formal no modifica el parámetro real.
--Paso por referencia: Cuando se pasa un parámetro por referencia implica que si modificamos el parámetro formal se modificará el parámetro real.
+- Paso por valor: El valor de los parámetros reales se copian en los parámetros formales, por lo tanto una modificación de algún parámetro formal no modifica el parámetro real.
+- Paso por referencia: Cuando se pasa un parámetro por referencia implica que si modificamos el parámetro formal se modificará el parámetro real.
 
 Por de defecto, los arrays se pasan por referencia, las demás expresiones por valor.
 Si queremos indicar explícitamente como se pasan los parámetros podemos usar las palabras claves Por Valor o Por Referencia.
