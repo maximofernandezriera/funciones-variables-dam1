@@ -4,26 +4,26 @@ Partimos del siguiente ejemplo. Un programa principal y una función:
 
 ### La función se llama CalcularMaximo y retorna max
 
-Funcion max <- CalcularMaximo(num1,num2)
-    Definir max Como Entero;
-    Si num1>num2 Entonces
-        max <- num1;
-    SiNo
-        max <- num2;
-    FinSi
-FinFuncion
+'Funcion max <- CalcularMaximo(num1,num2)
+'    Definir max Como Entero;
+'    Si num1>num2 Entonces
+'        max <- num1;
+'    SiNo
+'        max <- num2;
+'    FinSi
+'FinFuncion
 
 ### Maximo es el programa principal
 
-Proceso Maximo
-    Definir numero1,numero2,num_maximo Como Entero;
-    Escribir "Dime el número1:";
-    Leer numero1;
-    Escribir "Dime el número2:";
-    Leer numero2;
-    num_maximo <- CalcularMaximo(numero1,numero2);
-    Escribir "El máximo es ",num_maximo;
-FinProceso
+'Proceso Maximo
+'    Definir numero1,numero2,num_maximo Como Entero;
+'    Escribir "Dime el número1:";
+'    Leer numero1;
+'    Escribir "Dime el número2:";
+'    Leer numero2;
+'    num_maximo <- CalcularMaximo(numero1,numero2);
+'    Escribir "El máximo es ",num_maximo;
+'FinProceso
 
 ## Ámbito de variables
 Las variables definidas en la función no existen en otras funciones o el programa principal. Igualmente las variables del programa principal no existen en la función.
@@ -48,33 +48,34 @@ Si queremos indicar explícitamente como se pasan los parámetros podemos usar l
 
 Comprobamos que los parámetros pasados por valor no modifican los parámetros reales.
 
-Funcion PasoPorValor(num)
-    num <- num +1;
-    Escribir num;
-FinFuncion    
+'Funcion PasoPorValor(num)
+'    num <- num +1;
+'    Escribir num;
+'FinFuncion    
 
-Proceso Prueba
-    Definir numero1 Como Entero;
-    numero1<-5;
-    PasoPorValor(numero1);
-    Escribir numero1;
-FinProceso
+'Proceso Prueba
+'    Definir numero1 Como Entero;
+'   numero1<-5;
+'    PasoPorValor(numero1);
+'    Escribir numero1;
+'FinProceso
 
 El resultado será 5 y 6. Hemos incrementado el valor del parámetro formal, pero no se ha modificado el real.
 
 Veamos ahora el mismo programa pero pasando el parámetro por referencia.
 
-Funcion PasoPorReferencia(num Por Referencia)
-    num <- num +1;
-    Escribir num;
-FinFuncion    
+'Funcion PasoPorReferencia(num Por Referencia)
+'    num <- num +1;
+'    Escribir num;
+'FinFuncion    
 
-Proceso Prueba
-    Definir numero1 Como Entero;
-    numero1<-5;
-    PasoPorReferencia(numero1);
-    Escribir numero1;
-FinProceso
+'Proceso Prueba
+'    Definir numero1 Como Entero;
+'    numero1<-5;
+'    PasoPorReferencia(numero1);
+'   Escribir numero1;
+'FinProceso
+
 El resultado será 6 y 6. Hemos modificado el parámetro formal y se modificado el real.
 
 ## Llamada a la función
@@ -84,6 +85,5 @@ Evidentemente si estamos llamando un procedimiento, la llamada no tendrá ningú
 
 ## Ejemplos de llamadas:
 
-num1 <- CalcularMaximo(5,6)
-Escribir CalcularMaximo(1,2)
-...
+    num1 <- CalcularMaximo(5,6)
+    Escribir CalcularMaximo(1,2)
