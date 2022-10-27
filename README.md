@@ -1,4 +1,4 @@
-## Repaso de funcione, variables y parámetros en pseudocódigo
+## Repaso de funciones, variables y parámetros en pseudocódigo
 
 Partimos del siguiente ejemplo. Un programa principal y una función que calcula el máximo entre dos números:
 
@@ -30,13 +30,13 @@ Las variables definidas en la función no existen en otras funciones o el progra
 
 Por ejemplo la variable max definida en la función no existe en el programa principalmente. Igualmente la variable numero1 definida en el programa principal no existe en la función.
 
-## Parámetros formales y reales
+## Parámetros formales y reales (reales o argumentos son palabras sinónimas)
 
 - Parámetros formales: Son las variables que recibe la función, se crean al definir la función. Su contenido lo recibe al realizar la llamada a la función de los parámetro reales. Los parámetros formales son variables locales dentro de la función.
 
-- Parámetros reales: Son la expresiones que se utilizan en la llamada de la función, sus valores se copiarán en los parámetros formales.
+- Parámetros reales o argumentos: Son la expresiones que se utilizan en la llamada de la función, sus valores se copiarán en los parámetros formales.
 
-## Paso de parámetro por valor o por referencia
+## Paso de parámetros por valor y por referencia
 
 - Paso por valor: El valor de los parámetros reales se copian en los parámetros formales, por lo tanto una modificación de algún parámetro formal no modifica el parámetro real.
 - Paso por referencia: Cuando se pasa un parámetro por referencia implica que si modificamos el parámetro formal se modificará el parámetro real.
